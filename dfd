@@ -1,0 +1,17 @@
+void setup(){
+  size(480,120);
+}
+int x=215;
+
+void draw(){
+  background(200);
+  if(keyPressed&&(key==CODED)){//ㅇㅎㅇ ㅇㅇ ALT , CONTROL}
+    if(keyCode==LEFT){
+      x--;
+    }
+    else if(keyCode==RIGHT){
+      x++;
+    }
+  }
+   rect(x,45,50,50);
+}
